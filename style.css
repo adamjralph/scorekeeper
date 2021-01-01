@@ -1,7 +1,8 @@
 body {
-    background-color: #2a9d8f;
+    background-color: #264653;
 }
 h1, h2, h3 {
+    text-align: center;
     color: #f4a261;
     font-size: 3em;
     font-family: Arial, Helvetica, sans-serif;
@@ -16,21 +17,35 @@ h3 {
 .container {
     display: flex;
     justify-content: center;
-    border: solid 5px;
 }
-img {
-    display: flex;
-    justify-content: center;
-    width: 325px;
-    height: 325px;
-    align-items: end;
-}
-/* h2, h3 {
-    display: flex;
-    justify-content: center;
-} */
 
-/* .box :first-child {
-    align-self: center;
-} */
+.container div {
+    justify-content: center;
+    width: 400px;
+    height: 400px;
+    border: solid 5px;
+    border-width: 1rem;
+}
+
+
+#image {
+    display: flex; 
+    align-items: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    height: 150px;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+}
+
+#playto, button {
+    font-weight: 800;
+    color: #f4a261;
+    border-color: black;
+    background-color: #264653;
+}
 
